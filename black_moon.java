@@ -10,7 +10,7 @@ public class black_moon {
 
 		// preset password
 		Person1.setPassword("twitch");
-		
+
 		//first print out line
 		System.out.println("Please enter your User name:");
 		String Name_user = sc.nextLine();
@@ -23,16 +23,16 @@ public class black_moon {
 		String entered_password = sc.nextLine();
 
 		String Password_used = Person1.getPassword();
-		
+
 		if (entered_password == Password_used ) {
 			System.out.println("Sorry, Password is wrong. Try again (Y/N).");
 		}
-		
+
 		/*
 		System.out.println(Person1.getPassword());
 		System.out.println(entered_password);
 		*/
-		
+
 		Person1.print_text();
 
 	}
