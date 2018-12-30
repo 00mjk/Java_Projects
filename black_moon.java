@@ -34,5 +34,7 @@ public class black_moon {
 		*/
 
 		Person1.print_text();
+
+		
 	}
 }
