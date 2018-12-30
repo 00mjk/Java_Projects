@@ -13,8 +13,8 @@ abstract public class Blue_Print {
 		this.weight = weight;
 	}
 
-	
-	
+
+
 	public String getFirst_name() {
 		return first_name;
 	}
@@ -22,7 +22,7 @@ abstract public class Blue_Print {
 
 
 	public void setFirst_name(String first_name) {
-		first_name = first_name;
+		this.first_name = first_name;
 	}
 
 
@@ -62,7 +62,7 @@ abstract public class Blue_Print {
 	}
 
 
-//this is an empty method 
+//this is an empty method
 	public void print_text() {
 	}
 }
